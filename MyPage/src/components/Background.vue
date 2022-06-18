@@ -41,7 +41,7 @@ import BodyContent from "./BodyContent.vue";
 
 
 .title {
-    color: blueviolet;
+    color: #1abc9c;
     display: flex;
     align-items: flex-end;
     margin-left: 1vw;
@@ -51,7 +51,7 @@ import BodyContent from "./BodyContent.vue";
 }
 
 .profile-container {
-    background-color: black;
+    /* background-color: black; */
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -61,9 +61,7 @@ import BodyContent from "./BodyContent.vue";
 
 .profile {
     height: 18rem;
-    width: 14rem;
-    /* position: absolute; */
-    /* top:20vh; */
+    width: 15rem;
     z-index: 2;
     right: 10vw;
     background-image: url("/home/tahmid/Documents/GitHubPages/NurTahmid.github.io/MyPage/src/assets/pfp.jpg");

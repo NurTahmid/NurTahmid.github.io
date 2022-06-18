@@ -27,7 +27,7 @@ width: 100%;
             #1ABC9C,
             #16A085) ;
 
-  height: 20vh;
+  height: 25vh;
   color: white;
   z-index: 1;
   text-align: center;
@@ -64,7 +64,7 @@ nav a.router-link-exact-active:hover {
 nav a {
     display: inline-block;
     padding: 0 1rem;
-    border-left: 2px solid #2ecc71;
+    border-left: 2px solid black;
 }
 
 nav a:first-of-type {
