@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 import BodyContent from "./BodyContent.vue";
+import Footer from "./Footer.vue";
 </script>
 
 
@@ -14,20 +15,29 @@ import BodyContent from "./BodyContent.vue";
         <div class="profile-container">
             <div class="profile"></div>
         </div>
-
         <BodyContent />
+        <div class="bottom-container">
+        <Footer />
+        </div>
     </div>
-    <BodyContent />
+    
 
 
 
 </template>
 
 <style>
+
+.bottom-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: purple;
+    height: 90vh;
+}
+
 .container {
     background-color: azure;
-    flex-direction: column;
-    display: flex;
     height: 100%;
     width: 100%;
     background-color: orange;
@@ -44,7 +54,7 @@ import BodyContent from "./BodyContent.vue";
 }
 
 .profile-container {
-    background-color: black;
+    /* background-color: black; */
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -73,6 +83,7 @@ import BodyContent from "./BodyContent.vue";
 }
 
 .background {
+    
     display: flex;
     background-image: url("/home/tahmid/Documents/GitHubPages/NurTahmid.github.io/MyPage/src/assets/1.jpg");
     background-size: cover;
