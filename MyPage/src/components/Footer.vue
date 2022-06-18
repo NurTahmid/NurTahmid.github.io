@@ -9,8 +9,7 @@
 
 <style>
 .footer {
-  position: fixed;
-  left: 0;
+  position: absolute;
   bottom: 0;
   width: 100%;
   background-color: #03c9a9;

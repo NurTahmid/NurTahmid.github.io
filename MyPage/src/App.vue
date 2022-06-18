@@ -1,15 +1,13 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 import Footer from "./components/Footer.vue";
+import Background from "./components/Background.vue";
 </script>
 
 <template>
-<div class="background">
-drfd
-</div>
-
-<Footer />
+  <Background />
 </template>
+
 
 <style>
 @import "@/assets/base.css";
@@ -18,17 +16,11 @@ drfd
 
   font-weight: normal;
 }
-body {
-  background-color: #93faa5;
-}
 
 
-.background {
-  display: flex;
-  background-color: #2ecc71;
-  height: 35vh;
-  width: 100%;
-}
+
+
+
 
 /* @media (hover: hover) {
   a:hover {
