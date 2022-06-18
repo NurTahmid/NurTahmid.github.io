@@ -39,7 +39,7 @@ import BodyContent from "./BodyContent.vue";
     align-items: flex-end;
     margin-left: 1vw;
     height: 50vh;
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -88,6 +88,7 @@ import BodyContent from "./BodyContent.vue";
         width: 14rem;
         height: 18rem;
     }
+    
 }
 
 @media (max-width: 1100px) {
@@ -103,10 +104,6 @@ import BodyContent from "./BodyContent.vue";
         height: 15rem;
     }
         .profile-container {
-    background-color: black;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
     height: 9vh;
 }
 }
@@ -117,12 +114,13 @@ import BodyContent from "./BodyContent.vue";
         height: 14rem;
     }
         .profile-container {
-    background-color: black;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
     height: 8vh;
 }
+
+.title {
+    font-size: 1.8rem;
+}
+
 }
 
 @media (max-width: 560px) {
@@ -132,11 +130,29 @@ import BodyContent from "./BodyContent.vue";
     }
 
     .profile-container {
-    background-color: black;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
     height: 6vh;
 }
+.title {
+    font-size: 1.5rem;
 }
+}
+
+@media (max-width: 560px) {
+.title {
+    font-size: 1.4rem;
+}
+}
+
+@media (max-width: 450px) {
+.title {
+    font-size: 1.2rem;
+}
+}
+
+@media (max-width: 400px) {
+.title {
+    font-size: 1.0rem;
+}
+}
+
 </style>
