@@ -1,7 +1,5 @@
 <script setup>
-import { RouterLink, RouterView } from "vue-router";
 import BodyContent from "./BodyContent.vue";
-import Footer from "./Footer.vue";
 </script>
 
 
@@ -16,28 +14,26 @@ import Footer from "./Footer.vue";
             <div class="profile"></div>
         </div>
         <BodyContent />
-        <div class="bottom-container">
-        <Footer />
-        </div>
+            <div class="container1">
     </div>
-    
-
-
+    </div>
 
 </template>
 
 <style>
 
-.bottom-container{
+
+.container1 {
     display: flex;
-    justify-content: center;
     align-items: flex-end;
-    background-color: purple;
-    height: 90vh;
+    height: 50vh;
+    background-color: yellow;
+    width: 100%;
+
 }
 
+
 .container {
-    background-color: azure;
     height: 100%;
     width: 100%;
     background-color: orange;
@@ -45,6 +41,7 @@ import Footer from "./Footer.vue";
 
 
 .title {
+    color: blueviolet;
     display: flex;
     align-items: flex-end;
     margin-left: 1vw;
@@ -54,7 +51,7 @@ import Footer from "./Footer.vue";
 }
 
 .profile-container {
-    /* background-color: black; */
+    background-color: black;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;

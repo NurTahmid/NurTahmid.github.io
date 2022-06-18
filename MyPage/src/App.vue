@@ -1,5 +1,4 @@
 <script setup>
-import { RouterLink, RouterView } from "vue-router";
 import Background from "./components/Background.vue";
 </script>
 
@@ -15,9 +14,6 @@ import Background from "./components/Background.vue";
 
   font-weight: normal;
 }
-
-
-
 
 
 
